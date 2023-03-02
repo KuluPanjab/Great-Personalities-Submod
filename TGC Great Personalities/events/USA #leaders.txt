@@ -115,7 +115,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			has_country_flag = tory_election_win }
 			
 			OR = {
 				government = democracy
@@ -129,7 +129,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -172,7 +172,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			has_country_flag = liberal_election_win }
 			
 			OR = {
 				government = democracy
@@ -186,7 +186,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
@@ -229,7 +229,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			has_country_flag = reactionary_election_win }
 			
 			OR = {
 				government = democracy
@@ -243,7 +243,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = reactionary_election_win
+		USA = { clr_country_flag = = reactionary_election_win }
 	}
 	
 	option = { 
@@ -286,7 +286,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			has_country_flag = radical_election_win }
 			
 			OR = {
 				government = democracy
@@ -300,7 +300,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = radical_election_win
+		USA = { clr_country_flag = = radical_election_win }
 	}
 	
 	option = { 
@@ -484,7 +484,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			has_country_flag = tory_election_win }
 			
 			OR = {
 				government = democracy
@@ -498,7 +498,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -544,7 +544,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			has_country_flag = liberal_election_win }
 			
 			OR = {
 				government = democracy
@@ -558,7 +558,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
@@ -646,7 +646,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			has_country_flag = tory_election_win }
 			
 			OR = {
 				government = democracy
@@ -659,7 +659,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -704,8 +704,8 @@ country_event = {
 		USA = {
 			
 			OR = {
-				has_country_flag = liberal_election_win
-				has_country_flag = reactionary_election_win
+				has_country_flag = liberal_election_win }
+				has_country_flag = reactionary_election_win }
 			}
 			
 			OR = {
@@ -720,8 +720,8 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
-		clr_country_flag = reactionary_election_win
+		USA = { clr_country_flag = = liberal_election_win }
+		USA = { clr_country_flag = = reactionary_election_win }
 	}
 	
 	option = { 
@@ -762,7 +762,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			has_country_flag = radical_election_win }
 			
 			OR = {
 				government = democracy
@@ -776,7 +776,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = radical_election_win
+		USA = { clr_country_flag = = radical_election_win }
 	}
 	
 	option = { 
@@ -912,7 +912,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			has_country_flag = tory_election_win }
 			
 			OR = {
 				government = democracy
@@ -926,7 +926,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -970,7 +970,7 @@ country_event = {
 		USA = {
 			
 			AND = {
-				has_country_flag = liberal_election_win
+				has_country_flag = liberal_election_win }
 				has_country_flag = taylor_died
 			}
 			
@@ -986,7 +986,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
@@ -1030,7 +1030,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			has_country_flag = reactionary_election_win }
 	
 			OR = {
 				government = democracy
@@ -1044,7 +1044,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = reactionary_election_win
+		USA = { clr_country_flag = = reactionary_election_win }
 	}
 	
 	option = { 
@@ -1088,7 +1088,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			has_country_flag = radical_election_win }
 	
 			OR = {
 				government = democracy
@@ -1102,7 +1102,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = radical_election_win
+		USA = { clr_country_flag = = radical_election_win }
 	}
 	
 	option = { 
@@ -1190,7 +1190,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			has_country_flag = tory_election_win }
 			
 			OR = {
 				government = democracy
@@ -1204,7 +1204,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -1245,7 +1245,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			has_country_flag = liberal_election_win }
 			
 			OR = {
 				government = democracy
@@ -1259,7 +1259,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
@@ -1300,7 +1300,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			has_country_flag = reactionary_election_win }
 			
 			OR = {
 				government = democracy
@@ -1314,7 +1314,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = reactionary_election_win
+		USA = { clr_country_flag = = reactionary_election_win }
 	}
 	
 	option = { 
@@ -1356,7 +1356,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			has_country_flag = radical_election_win }
 			
 			OR = {
 				government = democracy
@@ -1370,7 +1370,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = radical_election_win
+		USA = { clr_country_flag = = radical_election_win }
 	}
 	
 	option = { 
@@ -1459,8 +1459,8 @@ country_event = {
 		USA = {
 			
 			OR = { 
-				has_country_flag = tory_election_win
-				has_country_flag = reactionary_election_win
+				has_country_flag = tory_election_win }
+				has_country_flag = reactionary_election_win }
 			}
 			
 			OR = {
@@ -1475,8 +1475,8 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
-		clr_country_flag = reactionary_election_win
+		USA = { clr_country_flag = = tory_election_win }
+		USA = { clr_country_flag = = reactionary_election_win }
 	}
 	
 	option = { 
@@ -1517,7 +1517,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			has_country_flag = liberal_election_win }
 			
 			OR = {
 				government = democracy
@@ -1531,7 +1531,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
@@ -1617,7 +1617,7 @@ country_event = {
 		USA = {
 			
 			OR = { 
-				has_country_flag = tory_election_win
+				has_country_flag = tory_election_win }
 			}
 			
 			OR = {
@@ -1632,7 +1632,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -1675,7 +1675,7 @@ country_event = {
 		USA = {
 			
 			OR = { 
-				has_country_flag = radical_election_win
+				has_country_flag = radical_election_win }
 			}
 			
 			OR = {
@@ -1690,7 +1690,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = radical_election_win
+		USA = { clr_country_flag = = radical_election_win }
 	}
 	
 	option = { 
@@ -1824,7 +1824,7 @@ country_event = {
 		USA = {
 			
 			OR = { 
-				has_country_flag = tory_election_win
+				has_country_flag = tory_election_win }
 			}
 			
 			OR = {
@@ -1839,7 +1839,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = tory_election_win
+		USA = { clr_country_flag = = tory_election_win }
 	}
 	
 	option = { 
@@ -1881,7 +1881,7 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			has_country_flag = liberal_election_win }
 			
 			OR = {
 				government = democracy
@@ -1895,7 +1895,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		USA = { clr_country_flag = = liberal_election_win }
 	}
 	
 	option = { 
