@@ -935,7 +935,10 @@ country_event = {
 			
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
+			remove_country_modifier = martin_van_buren
 			remove_country_modifier = winfield_scott
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = jacob_broom
 			
 			add_country_modifier = { 
 				name = franklin_pierce
@@ -993,7 +996,10 @@ country_event = {
 			
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
+			remove_country_modifier = martin_van_buren
 			remove_country_modifier = franklin_pierce
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = jacob_broom
 			
 			add_country_modifier = { 
 				name = winfield_scott
@@ -1006,10 +1012,126 @@ country_event = {
 	
 }
 
+# 1852-1856 Election Reactionary Victory
+country_event = {
+	
+	id = 1010119
+	
+	title = "Dynamic Leaders: Setting Jacob Broom as president" 
+	desc = "Dynamic Leaders: Setting Jacob Broom as president"
+	picture = "danishgovernment"
+	
+	trigger = { 
+		
+		tag = JAN
+		
+		year = 1853
+		NOT = { year = 1856 }
+		
+		USA = {
+			
+			has_country_flag = reactionary_election_win
+	
+			OR = {
+				government = democracy
+				has_country_flag = Government_Democracy
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = -1 }
+	
+	immediate = {
+		clr_country_flag = reactionary_election_win
+	}
+	
+	option = { 
+		name = "Setting..."
+		
+		USA = {
+			
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = john_parker_hale
+			
+			add_country_modifier = { 
+				name = jacob_broom
+				duration = -1
+			}
+			
+		}
+		
+	} 
+	
+}
+
+# 1852-1856 Election Radical Victory
+country_event = {
+	
+	id = 1010120
+	
+	title = "Dynamic Leaders: Setting John Parker Hale as president" 
+	desc = "Dynamic Leaders: Setting John Parker Hale as president"
+	picture = "danishgovernment"
+	
+	trigger = { 
+		
+		tag = JAN
+		
+		year = 1853
+		NOT = { year = 1856 }
+		
+		USA = {
+			
+			has_country_flag = radical_election_win
+	
+			OR = {
+				government = democracy
+				has_country_flag = Government_Democracy
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = -1 }
+	
+	immediate = {
+		clr_country_flag = radical_election_win
+	}
+	
+	option = { 
+		name = "Setting..."
+		
+		USA = {
+			
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			
+			add_country_modifier = { 
+				name = john_parker_hale
+				duration = -1
+			}
+			
+		}
+		
+	} 
+	
+}
+
 # 1856 Election hold on Historical Date
 country_event = {
 	
-	id = 1010122
+	id = 1010121
 	
 	title = "Dynamic Leaders: Holding the 1860 USA election" 
 	desc = "Dynamic Leaders: Holding the 1860 USA election"
@@ -1053,7 +1175,7 @@ country_event = {
 # 1856-1860 Election Conservative Victory
 country_event = {
 	
-	id = 1010123
+	id = 1010122
 	
 	title = "Dynamic Leaders: Setting James Buchanan as president" 
 	desc = "Dynamic Leaders: Setting James Buchanan as president"
@@ -1108,7 +1230,7 @@ country_event = {
 # 1852-1856 Election Liberal Victory
 country_event = {
 	
-	id = 1010124
+	id = 1010123
 	
 	title = "Dynamic Leaders: Setting John Charles Frémont as president" 
 	desc = "Dynamic Leaders: Setting John Charles Frémont as president"
@@ -1160,10 +1282,122 @@ country_event = {
 	
 }
 
-# 1860 Election hold on Historical Date
+# 1852-1856 Election Reactionary Victory
+country_event = {
+	
+	id = 1010124
+	
+	title = "Dynamic Leaders: Setting Millard Fillmore as president" 
+	desc = "Dynamic Leaders: Setting Millard Fillmore as president"
+	picture = "danishgovernment"
+	
+	trigger = { 
+		
+		tag = JAN
+		
+		year = 1857
+		NOT = { year = 1860 }
+		
+		USA = {
+			
+			has_country_flag = reactionary_election_win
+			
+			OR = {
+				government = democracy
+				has_country_flag = Government_Democracy
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = -1 }
+	
+	immediate = {
+		clr_country_flag = reactionary_election_win
+	}
+	
+	option = { 
+		name = "Setting..."
+		
+		USA = {
+			
+			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = gerrit_smith
+			
+			add_country_modifier = { 
+				name = millard_fillmore
+				duration = -1
+			}
+			
+		}
+		
+	}
+	
+}
+
+# 1852-1856 Election Reactionary Victory
 country_event = {
 	
 	id = 1010125
+	
+	title = "Dynamic Leaders: Setting Gerrit Smith as president" 
+	desc = "Dynamic Leaders: Setting Gerrit Smith as president"
+	picture = "danishgovernment"
+	
+	trigger = { 
+		
+		tag = JAN
+		
+		year = 1857
+		NOT = { year = 1864 }
+		
+		USA = {
+			
+			has_country_flag = radical_election_win
+			
+			OR = {
+				government = democracy
+				has_country_flag = Government_Democracy
+			}
+			
+		}
+		
+	}
+	
+	mean_time_to_happen = { days = -1 }
+	
+	immediate = {
+		clr_country_flag = radical_election_win
+	}
+	
+	option = { 
+		name = "Setting..."
+		
+		USA = {
+			
+			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = millard_fillmore
+			
+			add_country_modifier = { 
+				name = gerrit_smith
+				duration = -1
+			}
+			
+		}
+		
+	}
+	
+}
+
+# 1860 Election hold on Historical Date
+country_event = {
+	
+	id = 1010126
 	
 	title = "Dynamic Leaders: Holding the 1860 USA election" 
 	desc = "Dynamic Leaders: Holding the 1860 USA election"
@@ -1207,7 +1441,7 @@ country_event = {
 # 1860-1864 Election Conservative-Reactionary Victory
 country_event = {
 	
-	id = 1010126
+	id = 1010127
 	
 	title = "Dynamic Leaders: Setting John Cabell Breckinridge as president" 
 	desc = "Dynamic Leaders: Setting John Cabell Breckinridge as president"
@@ -1268,7 +1502,7 @@ country_event = {
 # 1860-1864 Election Liberal Victory
 country_event = {
 	
-	id = 1010127
+	id = 1010128
 	
 	title = "Dynamic Leaders: Setting Abraham Lincoln as president" 
 	desc = "Dynamic Leaders: Setting Abraham Lincoln as president"
@@ -1279,7 +1513,7 @@ country_event = {
 		tag = JAN
 		
 		year = 1861
-		NOT = { year = 1864 }
+		NOT = { year = 1868 }
 		
 		USA = {
 			
@@ -1323,7 +1557,7 @@ country_event = {
 # 1864 Election hold on Historical Date
 country_event = {
 	
-	id = 1010128
+	id = 1010129
 	
 	title = "Dynamic Leaders: Holding the 1864 USA election" 
 	desc = "Dynamic Leaders: Holding the 1864 USA election"
@@ -1367,7 +1601,7 @@ country_event = {
 # 1860-1864 Election Conservative Victory
 country_event = {
 	
-	id = 1010129
+	id = 1010130
 	
 	title = "Dynamic Leaders: Setting George Brinton McClellan as president" 
 	desc = "Dynamic Leaders: Setting George Brinton McClellan as president"
@@ -1408,6 +1642,7 @@ country_event = {
 			
 			remove_country_modifier = john_cabell_breckinridge 
 			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_charles_fremont
 			remove_country_modifier = andrew_johnson
 			
 			add_country_modifier = { 
@@ -1421,14 +1656,14 @@ country_event = {
 	
 }
 
-# 1864-1865 Election Liberal Victory
+# 1860-1864 Election Radical Victory
 country_event = {
 	
-	id = 1010130
+	id = 1010131
 	
-	title = "Dynamic Leaders: Setting Abraham Lincoln as president" 
-	desc = "Dynamic Leaders: Setting Abraham Lincoln as president"
-	picture = "danishgovernment"
+	title = "Dynamic Leaders: Setting John Charles Frémont as president" 
+	desc = "Dynamic Leaders: Setting John Charles Frémont as president"
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1439,9 +1674,9 @@ country_event = {
 		
 		USA = {
 			
-			NOT = { has_country_flag = lincoln_assassinated }
-			
-			has_country_flag = liberal_election_win
+			OR = { 
+				has_country_flag = radical_election_win
+			}
 			
 			OR = {
 				government = democracy
@@ -1455,7 +1690,7 @@ country_event = {
 	mean_time_to_happen = { days = -1 }
 	
 	immediate = {
-		clr_country_flag = liberal_election_win
+		clr_country_flag = radical_election_win
 	}
 	
 	option = { 
@@ -1463,11 +1698,13 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = john_cabell_breckinridge 
+			remove_country_modifier = abraham_lincoln
 			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = andrew_johnson
 			
 			add_country_modifier = { 
-				name = abraham_lincoln
+				name = george_brinton_mcclellan
 				duration = -1
 			}
 			
@@ -1527,7 +1764,7 @@ country_event = {
 # 1868 Election hold on Historical Date
 country_event = {
 	
-	id = 1010131
+	id = 1010132
 	
 	title = "Dynamic Leaders: Holding the 1868 USA election" 
 	desc = "Dynamic Leaders: Holding the 1868 USA election"
@@ -1571,7 +1808,7 @@ country_event = {
 # 1868-1872 Election Conservative Victory
 country_event = {
 	
-	id = 1010132
+	id = 1010133
 	
 	title = "Dynamic Leaders: Setting Horatio Seymour as president" 
 	desc = "Dynamic Leaders: Setting Horatio Seymour Grant as president"
@@ -1610,7 +1847,8 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = george_brinton_mcclellan 
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = john_charles_fremont
 			remove_country_modifier = andrew_johnson
 			remove_country_modifier = ulysses_simpson_grant
 			
@@ -1628,7 +1866,7 @@ country_event = {
 # 1868-1872 Election Liberal Victory
 country_event = {
 	
-	id = 1010133
+	id = 1010134
 	
 	title = "Dynamic Leaders: Setting Ulysses Simpson Grant as president" 
 	desc = "Dynamic Leaders: Setting Ulysses Simpson Grant as president"
@@ -1639,7 +1877,7 @@ country_event = {
 		tag = JAN
 		
 		year = 1869
-		NOT = { year = 1872 }
+		NOT = { year = 1876 }
 		
 		USA = {
 			
@@ -1665,7 +1903,8 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = george_brinton_mcclellan 
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = john_charles_fremont
 			remove_country_modifier = andrew_johnson
 			remove_country_modifier = horatio_seymour
 			

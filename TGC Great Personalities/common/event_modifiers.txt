@@ -5342,12 +5342,16 @@ martin_van_buren = {
 	icon = 83
 }
 
+william_henry_harrison = {
+	icon = 110
+}
+
 john_caldwell_calhoun = {
 	icon = 96 
 }
 
-william_henry_harrison = {
-	icon = 110
+james_gillespie_birney = {
+	icon = 107 
 }
 
 john_tyler = {
@@ -5382,12 +5386,24 @@ winfield_scott = {
 	icon = 124 
 }
 
+jacob_broom = {
+	icon = 128 
+}
+
+john_parker_hale = {
+	icon = 152 
+}
+
 james_buchanan = {
 	icon = 119 
 }
 
 john_charles_fremont = {
 	icon = 144 
+}
+
+gerrit_smith = {
+	icon = 90
 }
 
 abraham_lincoln = {
