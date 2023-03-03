@@ -78,7 +78,7 @@ country_event = {
 				
 				limit = { is_culture_group = native_american }
 				
-				reduce_pop = 0.10
+				reduce_pop = 0.01
 				
 			}
 			
