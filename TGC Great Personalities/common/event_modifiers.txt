@@ -5408,6 +5408,10 @@ john_charles_fremont = {
 	icon = 144 
 }
 
+millard_fillmore2 = {
+	icon = 132 
+}
+
 gerrit_smith = {
 	icon = 90
 }

@@ -1309,6 +1309,7 @@ country_event = {
 			remove_country_modifier = franklin_pierce 
 			remove_country_modifier = winfield_scott
 			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
 			
 			add_country_modifier = { 
 				name = james_buchanan
@@ -1366,6 +1367,7 @@ country_event = {
 			remove_country_modifier = franklin_pierce 
 			remove_country_modifier = winfield_scott
 			remove_country_modifier = james_buchanan
+			remove_country_modifier = millard_fillmore2
 			
 			add_country_modifier = { 
 				name = john_charles_fremont
@@ -1426,7 +1428,7 @@ country_event = {
 			remove_country_modifier = gerrit_smith
 			
 			add_country_modifier = { 
-				name = millard_fillmore
+				name = millard_fillmore2
 				duration = -1
 			}
 			
@@ -1436,7 +1438,7 @@ country_event = {
 	
 }
 
-# 1852-1856 Election Reactionary Victory
+# 1852-1856 Election Radical Victory
 country_event = {
 	
 	id = 1010125
@@ -1481,7 +1483,7 @@ country_event = {
 			remove_country_modifier = franklin_pierce 
 			remove_country_modifier = winfield_scott
 			remove_country_modifier = james_buchanan
-			remove_country_modifier = millard_fillmore
+			remove_country_modifier = millard_fillmore2
 			
 			add_country_modifier = { 
 				name = gerrit_smith
@@ -1590,6 +1592,8 @@ country_event = {
 			
 			remove_country_modifier = james_buchanan 
 			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = millard_fillmore2
 			remove_country_modifier = abraham_lincoln
 			
 			add_country_modifier = { 
@@ -1647,6 +1651,8 @@ country_event = {
 			
 			remove_country_modifier = james_buchanan 
 			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = millard_fillmore2
 			remove_country_modifier = john_cabell_breckinridge
 			
 			add_country_modifier = { 
