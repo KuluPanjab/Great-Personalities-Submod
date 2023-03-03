@@ -5335,6 +5335,12 @@ bad_immigration_policy = {
 ### UNITED STATES OF AMERICA ###
 
 andrew_jackson = {
+	factory_owner_cost = -0.1
+	ruling_party_support = -0.2
+	issue_change_speed = -0.1
+	# factory_owner_cost = -0.05
+	# ruling_party_support = -0.1
+	# issue_change_speed = -0.05
 	icon = 129 
 }
 

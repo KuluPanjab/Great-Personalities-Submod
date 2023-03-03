@@ -295,7 +295,7 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "hold_election"
-			position = { x=37 y =362 }
+			position = { x= 99999 y = 99999 }
 			quadTextureSprite ="GFX_politics_election_button"
 			buttonText = "HOLD_ELECTION_BUTTON"
 			buttonFont = "vic_18_black"
