@@ -5352,6 +5352,10 @@ william_henry_harrison = {
 	icon = 110
 }
 
+daniel_webster = {
+	icon = 145 
+}
+
 john_caldwell_calhoun = {
 	icon = 96 
 }
