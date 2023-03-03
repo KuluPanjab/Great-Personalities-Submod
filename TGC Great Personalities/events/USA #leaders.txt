@@ -188,10 +188,13 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
 			
 			add_country_modifier = { 
 				name = martin_van_buren
-				duration = -1
+				duration = 1460
 			}
 			
 		}
@@ -252,23 +255,13 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
 			
-			random_list = {
-				
-				50 = {
-					add_country_modifier = { 
-						name = william_henry_harrison
-						duration = -1
-					}
-				}
-				
-				50 = {
-					add_country_modifier = { 
-						name = daniel_webster
-						duration = -1
-					}
-				}
-				
+			add_country_modifier = { 
+				name = william_henry_harrison
+				duration = 1460
 			}
 			
 		}
@@ -321,6 +314,9 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = james_gillespie_birney
 			
 			add_country_modifier = { 
 				name = john_caldwell_calhoun
@@ -377,6 +373,9 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = john_caldwell_calhoun
 			
 			add_country_modifier = { 
 				name = james_gillespie_birney
