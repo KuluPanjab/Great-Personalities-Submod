@@ -5444,6 +5444,14 @@ horatio_seymour = {
 	icon = 129 
 }
 
+charles_oconor = {
+	icon = 86 
+}
+
+charles_francis_adams_sr = {
+	icon = 90 
+}
+
 ### CONFEDERATE STATES OF AMERICA ###
 
 jefferson_davis = {
