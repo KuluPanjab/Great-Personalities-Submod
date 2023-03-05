@@ -7,7 +7,7 @@ country_event = {
 	desc = "Dynamic Leaders: Setting Andrew Jackson as president"
 	picture = "danishgovernment"
 
-	fire_only_once = yes 
+	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -96,7 +96,7 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1836 USA election" 
 	desc = "Dynamic Leaders: Holding the 1836 USA election"
 	picture = "danishgovernment"
-
+	
 	fire_only_once = yes
 	
 	trigger = { 
@@ -143,9 +143,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting Martin Van Buren as president" 
 	desc = "Dynamic Leaders: Setting Martin Van Buren as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -167,7 +165,9 @@ country_event = {
 	
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -188,6 +188,33 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = martin_van_buren
@@ -207,9 +234,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting William Henry Harrison as president" 
 	desc = "Dynamic Leaders: Setting William Henry Harrison as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -231,7 +256,9 @@ country_event = {
 	
 		USA = {
 			
-			has_country_flag = liberal_election_win 
+			NOT = { election = yes }
+			
+			ruling_party_ideology = liberal 
 			
 			OR = {
 				government = democracy
@@ -252,6 +279,33 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			random_list = {
 				
@@ -284,9 +338,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting John Caldwell Calhoun as president" 
 	desc = "Dynamic Leaders: Setting John Caldwell Calhoun as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -309,7 +361,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = reactionary
 			
 			OR = {
 				government = democracy
@@ -332,6 +386,33 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_caldwell_calhoun
@@ -351,9 +432,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting James Gillespie Birney as president" 
 	desc = "Dynamic Leaders: Setting James Gillespie Birney as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -376,7 +455,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = anarcho_liberal
 			
 			OR = {
 				government = democracy
@@ -399,6 +480,33 @@ country_event = {
 		USA = {
 			
 			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = james_gillespie_birney
@@ -419,8 +527,6 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1840 USA election" 
 	desc = "Dynamic Leaders: Holding the 1840 USA election"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	fire_only_once = yes 
 	
@@ -498,7 +604,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
 			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_tyler
@@ -563,9 +696,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting James Knox Polk as president" 
 	desc = "Dynamic Leaders: Setting James Knox Polk as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -577,7 +708,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -599,10 +732,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
 			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
 			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = james_knox_polk
@@ -623,8 +780,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Henry Clay as president" 
 	desc = "Dynamic Leaders: Setting Henry Clay Harrison as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -638,7 +793,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = liberal
 			
 			OR = {
 				government = democracy
@@ -660,10 +817,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
 			remove_country_modifier = martin_van_buren
-			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
 			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
 			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = henry_clay
@@ -684,8 +865,6 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1848 USA election" 
 	desc = "Dynamic Leaders: Holding the 1848 USA election"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	fire_only_once = yes 
 	
@@ -730,9 +909,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting Lewis Cass as president" 
 	desc = "Dynamic Leaders: Setting Lewis Cass as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -743,7 +920,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -764,8 +943,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = henry_clay
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
 			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = lewis_cass
@@ -786,8 +991,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Zachary Taylor as president" 
 	desc = "Dynamic Leaders: Setting Zachary Taylor as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -801,8 +1004,12 @@ country_event = {
 		USA = {
 			
 			OR = {
-				has_country_flag = liberal_election_win
-				has_country_flag = reactionary_election_win
+				NOT = { election = yes }
+
+			ruling_party_ideology = liberal
+				NOT = { election = yes }
+
+			ruling_party_ideology = reactionary
 			}
 			
 			OR = {
@@ -826,8 +1033,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = henry_clay
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
 			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = zachary_taylor
@@ -847,8 +1080,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Martin Van Buren as president" 
 	desc = "Dynamic Leaders: Setting Martin Van Buren as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -859,7 +1090,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = anarcho_liberal
 			
 			OR = {
 				government = democracy
@@ -881,8 +1114,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = henry_clay
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
 			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = martin_van_buren
@@ -935,7 +1194,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
 			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = millard_fillmore
@@ -955,9 +1241,9 @@ country_event = {
 	
 	title = "Dynamic Leaders: Holding the 1852 USA election" 
 	desc = "Dynamic Leaders: Holding the 1852 USA election"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
+	
+	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -999,9 +1285,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting Franklin Pierce as president" 
 	desc = "Dynamic Leaders: Setting Franklin Pierce as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1012,7 +1296,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -1033,9 +1319,34 @@ country_event = {
 		name = "Setting..."
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
-			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = franklin_pierce
@@ -1056,8 +1367,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Winfield Scott as president" 
 	desc = "Dynamic Leaders: Setting Winfield Scott as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1069,7 +1378,9 @@ country_event = {
 		USA = {
 			
 			AND = {
-				has_country_flag = liberal_election_win
+				NOT = { election = yes }
+
+			ruling_party_ideology = liberal
 				has_country_flag = taylor_died
 			}
 			
@@ -1093,9 +1404,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
-			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = winfield_scott
@@ -1116,8 +1452,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Jacob Broom as president" 
 	desc = "Dynamic Leaders: Setting Jacob Broom as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1128,7 +1462,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = reactionary
 	
 			OR = {
 				government = democracy
@@ -1150,9 +1486,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
-			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = jacob_broom
@@ -1173,8 +1534,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting John Parker Hale as president" 
 	desc = "Dynamic Leaders: Setting John Parker Hale as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1185,7 +1544,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = anarcho_liberal
 	
 			OR = {
 				government = democracy
@@ -1207,9 +1568,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
 			remove_country_modifier = millard_fillmore
 			remove_country_modifier = lewis_cass
-			remove_country_modifier = martin_van_buren
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_parker_hale
@@ -1230,7 +1616,7 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1860 USA election" 
 	desc = "Dynamic Leaders: Holding the 1860 USA election"
 	picture = "danishgovernment"
-
+	
 	fire_only_once = yes
 	
 	trigger = { 
@@ -1273,9 +1659,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting James Buchanan as president" 
 	desc = "Dynamic Leaders: Setting James Buchanan as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1286,7 +1670,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -1308,8 +1694,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
 			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = james_buchanan
@@ -1330,8 +1742,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting John Charles Frémont as president" 
 	desc = "Dynamic Leaders: Setting John Charles Frémont as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1342,7 +1752,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = liberal
 			
 			OR = {
 				government = democracy
@@ -1364,8 +1776,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
 			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_charles_fremont
@@ -1386,8 +1824,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Millard Fillmore as president" 
 	desc = "Dynamic Leaders: Setting Millard Fillmore as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1398,7 +1834,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = reactionary_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = reactionary
 			
 			OR = {
 				government = democracy
@@ -1420,8 +1858,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
 			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = millard_fillmore2
@@ -1442,8 +1906,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Gerrit Smith as president" 
 	desc = "Dynamic Leaders: Setting Gerrit Smith as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1454,7 +1916,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = radical_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = anarcho_liberal
 			
 			OR = {
 				government = democracy
@@ -1476,8 +1940,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = franklin_pierce 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
 			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = gerrit_smith
@@ -1497,9 +1987,9 @@ country_event = {
 	
 	title = "Dynamic Leaders: Holding the 1860 USA election" 
 	desc = "Dynamic Leaders: Holding the 1860 USA election"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
+	
+	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1541,9 +2031,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting John Cabell Breckinridge as president" 
 	desc = "Dynamic Leaders: Setting John Cabell Breckinridge as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1557,8 +2045,12 @@ country_event = {
 		USA = {
 			
 			OR = { 
-				has_country_flag = tory_election_win
-				has_country_flag = reactionary_election_win
+				NOT = { election = yes }
+
+			ruling_party_ideology = conservative
+				NOT = { election = yes }
+
+			ruling_party_ideology = reactionary
 			}
 			
 			OR = {
@@ -1582,10 +2074,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = james_buchanan 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
 			remove_country_modifier = john_charles_fremont
-			remove_country_modifier = gerrit_smith
 			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_cabell_breckinridge
@@ -1606,8 +2122,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Abraham Lincoln as president" 
 	desc = "Dynamic Leaders: Setting Abraham Lincoln as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -1629,7 +2143,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = liberal
 			
 			OR = {
 				government = democracy
@@ -1651,10 +2167,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = james_buchanan 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
 			remove_country_modifier = john_charles_fremont
-			remove_country_modifier = gerrit_smith
 			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = abraham_lincoln
@@ -1675,7 +2215,7 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1864 USA election" 
 	desc = "Dynamic Leaders: Holding the 1864 USA election"
 	picture = "danishgovernment"
-
+	
 	fire_only_once = yes
 	
 	trigger = { 
@@ -1718,9 +2258,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting George Brinton McClellan as president" 
 	desc = "Dynamic Leaders: Setting George Brinton McClellan as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1731,7 +2269,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -1753,8 +2293,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = john_cabell_breckinridge 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
 			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = george_brinton_mcclellan
@@ -1774,9 +2340,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting John Charles Frémont as president" 
 	desc = "Dynamic Leaders: Setting John Charles Frémont as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1787,7 +2351,9 @@ country_event = {
 		
 		USA = {
 		 
-			has_country_flag = radical_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = anarcho_liberal
 			
 			OR = {
 				government = democracy
@@ -1809,8 +2375,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = john_cabell_breckinridge 
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
 			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = john_charles_fremont
@@ -1856,7 +2448,34 @@ country_event = {
 		
 		set_country_flag = lincoln_assassinated
 		
-		remove_country_modifier = abraham_lincoln
+		remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 		
 		add_country_modifier = {
 			name = andrew_johnson
@@ -1879,7 +2498,7 @@ country_event = {
 	title = "Dynamic Leaders: Holding the 1868 USA election" 
 	desc = "Dynamic Leaders: Holding the 1868 USA election"
 	picture = "danishgovernment"
-
+	
 	fire_only_once = yes
 	
 	trigger = { 
@@ -1922,9 +2541,7 @@ country_event = {
 	
 	title = "Dynamic Leaders: Setting Horatio Seymour as president" 
 	desc = "Dynamic Leaders: Setting Horatio Seymour Grant as president"
-	picture = "danishgovernment"
-
-	fire_only_once = yes 
+	picture = "danishgovernment" 
 	
 	trigger = { 
 		
@@ -1935,7 +2552,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -1957,9 +2576,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
 			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
 			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = horatio_seymour
@@ -1980,8 +2624,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Ulysses Simpson Grant as president" 
 	desc = "Dynamic Leaders: Setting Ulysses Simpson Grant as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -2003,7 +2645,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = liberal_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = liberal
 			
 			OR = {
 				government = democracy
@@ -2025,9 +2669,34 @@ country_event = {
 		
 		USA = {
 			
-			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
 			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
 			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
+			remove_country_modifier = ulysses_simpson_grant
+			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = ulysses_simpson_grant
@@ -2092,8 +2761,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Charles O'Conor as president" 
 	desc = "Dynamic Leaders: Setting Charles O'Conor as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -2104,7 +2771,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = socialist_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = socialist
 			
 			OR = {
 				government = democracy
@@ -2126,8 +2795,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
 			remove_country_modifier = ulysses_simpson_grant
 			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = charles_oconor
@@ -2196,8 +2891,6 @@ country_event = {
 	title = "Dynamic Leaders: Setting Charles Francis Adams Sr. as president" 
 	desc = "Dynamic Leaders: Setting Charles Francis Adams Sr. as president"
 	picture = "danishgovernment"
-
-	fire_only_once = yes
 	
 	trigger = { 
 		
@@ -2208,7 +2901,9 @@ country_event = {
 		
 		USA = {
 			
-			has_country_flag = tory_election_win
+			NOT = { election = yes }
+
+			ruling_party_ideology = conservative
 			
 			OR = {
 				government = democracy
@@ -2230,8 +2925,34 @@ country_event = {
 		
 		USA = {
 			
+			remove_country_modifier = andrew_jackson
+			remove_country_modifier = martin_van_buren
+			remove_country_modifier = william_henry_harrison
+			remove_country_modifier = daniel_webster
+			remove_country_modifier = john_caldwell_calhoun
+			remove_country_modifier = james_gillespie_birney
+			remove_country_modifier = john_tyler
+			remove_country_modifier = james_knox_polk
+			remove_country_modifier = henry_clay
+			remove_country_modifier = zachary_taylor
+			remove_country_modifier = millard_fillmore
+			remove_country_modifier = lewis_cass
+			remove_country_modifier = franklin_pierce
+			remove_country_modifier = winfield_scott
+			remove_country_modifier = jacob_broom
+			remove_country_modifier = john_parker_hale
+			remove_country_modifier = james_buchanan
+			remove_country_modifier = john_charles_fremont
+			remove_country_modifier = millard_fillmore2
+			remove_country_modifier = gerrit_smith
+			remove_country_modifier = abraham_lincoln
+			remove_country_modifier = john_cabell_breckinridge
+			remove_country_modifier = andrew_johnson
+			remove_country_modifier = george_brinton_mcclellan
 			remove_country_modifier = ulysses_simpson_grant
 			remove_country_modifier = horatio_seymour
+			remove_country_modifier = charles_oconor
+			remove_country_modifier = charles_francis_adams_sr
 			
 			add_country_modifier = { 
 				name = charles_francis_adams_sr
