@@ -1,0 +1,37 @@
+political_decisions = {
+
+	## 1836 Leaders Setup ##
+
+	initial_leaders_setup = {
+		
+		potential = { 
+			ai = yes
+			tag = JAN
+			NOT = { has_global_flag = initial_leaders_already_set } 
+		}
+		
+		
+		allow = { }
+		
+		
+		effect = {
+			
+			set_global_flag = initial_leaders_already_set
+			
+			USA = {
+				add_country_modifier = {
+					name = andrew_jackson
+					duration = -1
+				
+			}
+			
+			TEX = {
+				add_country_modifier = { 
+					name = sam_houston
+					duration = -1
+				}
+			}
+			
+		}
+	}
+}
