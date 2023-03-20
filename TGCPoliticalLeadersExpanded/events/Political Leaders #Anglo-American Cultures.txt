@@ -1,0 +1,1775 @@
+############## MONARCHIES -- KINGDOMS ############################
+
+country_event = {
+    id = 100040001
+    title = "King Assumes The Throne"
+    desc = "A new king has ascended to the throne."
+    picture = "Monarchy"
+    trigger = {
+		ai = no
+        primary_culture = yankee
+		NOT = {
+            has_country_modifier = yankee_king_00
+			has_country_modifier = yankee_king_01
+			has_country_modifier = yankee_king_02
+			has_country_modifier = yankee_king_03
+			has_country_modifier = yankee_king_04
+			has_country_modifier = yankee_king_05
+			has_country_modifier = yankee_king_06
+			has_country_modifier = yankee_king_07
+			has_country_modifier = yankee_king_08
+			has_country_modifier = yankee_king_09
+			has_country_modifier = yankee_king_10
+			has_country_modifier = yankee_king_11
+			has_country_modifier = yankee_king_12
+			has_country_modifier = yankee_king_13
+			has_country_modifier = yankee_king_14
+			has_country_modifier = yankee_king_15
+			has_country_modifier = yankee_king_16
+			has_country_modifier = yankee_king_17
+			has_country_modifier = yankee_king_18
+			has_country_modifier = yankee_king_19
+			has_country_modifier = yankee_king_20
+			has_country_modifier = yankee_king_21
+			has_country_modifier = yankee_king_22
+			has_country_modifier = yankee_king_23
+			has_country_modifier = yankee_king_24
+			has_country_modifier = yankee_king_25
+			has_country_modifier = yankee_king_26
+			has_country_modifier = yankee_king_27
+			has_country_modifier = yankee_king_28
+			has_country_modifier = yankee_king_29
+			has_country_modifier = yankee_king_30
+			has_country_modifier = yankee_king_31
+			has_country_modifier = yankee_king_32
+			has_country_modifier = yankee_king_33
+			has_country_modifier = yankee_king_34
+			has_country_modifier = yankee_king_35
+			has_country_modifier = yankee_king_36
+			has_country_modifier = yankee_king_37
+			has_country_modifier = yankee_king_38
+			has_country_modifier = power_vacuum
+            has_country_flag = minister_found
+        }
+        OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+        }
+    }
+
+    mean_time_to_happen = {
+        days = 14
+    }
+
+    immediate = {
+        set_country_flag = minister_found
+    }
+	
+	
+	option = {
+        name = "Long live the king!"
+		remove_country_modifier = yankee_king_00
+		remove_country_modifier = yankee_king_01
+		remove_country_modifier = yankee_king_02
+		remove_country_modifier = yankee_king_03
+		remove_country_modifier = yankee_king_04
+		remove_country_modifier = yankee_king_05
+		remove_country_modifier = yankee_king_06
+		remove_country_modifier = yankee_king_07
+		remove_country_modifier = yankee_king_08
+		remove_country_modifier = yankee_king_09
+		remove_country_modifier = yankee_king_10
+		remove_country_modifier = yankee_king_11
+		remove_country_modifier = yankee_king_12
+		remove_country_modifier = yankee_king_13
+		remove_country_modifier = yankee_king_14
+		remove_country_modifier = yankee_king_15
+		remove_country_modifier = yankee_king_16
+		remove_country_modifier = yankee_king_17
+		remove_country_modifier = yankee_king_18
+		remove_country_modifier = yankee_king_19
+		remove_country_modifier = yankee_king_20
+		remove_country_modifier = yankee_king_21
+		remove_country_modifier = yankee_king_22
+		remove_country_modifier = yankee_king_23
+		remove_country_modifier = yankee_king_24
+		remove_country_modifier = yankee_king_25
+		remove_country_modifier = yankee_king_26
+		remove_country_modifier = yankee_king_27
+		remove_country_modifier = yankee_king_28
+		remove_country_modifier = yankee_king_29
+		remove_country_modifier = yankee_king_30
+		remove_country_modifier = yankee_king_31
+		remove_country_modifier = yankee_king_32
+		remove_country_modifier = yankee_king_33
+		remove_country_modifier = yankee_king_34
+		remove_country_modifier = yankee_king_35
+		remove_country_modifier = yankee_king_36
+		remove_country_modifier = yankee_king_37
+		remove_country_modifier = yankee_king_38
+		
+		remove_country_modifier = yankee_prime_minister_000
+		remove_country_modifier = yankee_prime_minister_001
+		remove_country_modifier = yankee_prime_minister_002
+		remove_country_modifier = yankee_prime_minister_003
+		remove_country_modifier = yankee_prime_minister_004
+		remove_country_modifier = yankee_prime_minister_005
+		remove_country_modifier = yankee_prime_minister_006
+		remove_country_modifier = yankee_prime_minister_007
+		remove_country_modifier = yankee_prime_minister_008
+		remove_country_modifier = yankee_prime_minister_009
+		remove_country_modifier = yankee_prime_minister_010
+		remove_country_modifier = yankee_prime_minister_011
+		remove_country_modifier = yankee_prime_minister_012
+		remove_country_modifier = yankee_prime_minister_013
+		remove_country_modifier = yankee_prime_minister_014
+		remove_country_modifier = yankee_prime_minister_015
+		remove_country_modifier = yankee_prime_minister_016
+		remove_country_modifier = yankee_prime_minister_017
+		remove_country_modifier = yankee_prime_minister_018
+		remove_country_modifier = yankee_prime_minister_019
+		remove_country_modifier = yankee_prime_minister_020
+		remove_country_modifier = yankee_prime_minister_021
+		remove_country_modifier = yankee_prime_minister_022
+		remove_country_modifier = yankee_prime_minister_023
+		remove_country_modifier = yankee_prime_minister_024
+		remove_country_modifier = yankee_prime_minister_025
+		remove_country_modifier = yankee_prime_minister_026
+		remove_country_modifier = yankee_prime_minister_027
+		remove_country_modifier = yankee_prime_minister_028
+		remove_country_modifier = yankee_prime_minister_029
+		remove_country_modifier = yankee_prime_minister_030
+		remove_country_modifier = yankee_prime_minister_031
+		remove_country_modifier = yankee_prime_minister_032
+		remove_country_modifier = yankee_prime_minister_033
+		remove_country_modifier = yankee_prime_minister_034
+		remove_country_modifier = yankee_prime_minister_035
+		remove_country_modifier = yankee_prime_minister_036
+		remove_country_modifier = yankee_prime_minister_037
+		remove_country_modifier = yankee_prime_minister_038
+		remove_country_modifier = yankee_prime_minister_039
+		remove_country_modifier = yankee_prime_minister_040
+		remove_country_modifier = yankee_prime_minister_041
+		remove_country_modifier = yankee_prime_minister_042
+		remove_country_modifier = yankee_prime_minister_043
+		remove_country_modifier = yankee_prime_minister_044
+		remove_country_modifier = yankee_prime_minister_045
+		remove_country_modifier = yankee_prime_minister_046
+		remove_country_modifier = yankee_prime_minister_047
+		remove_country_modifier = yankee_prime_minister_048
+		remove_country_modifier = yankee_prime_minister_049
+		remove_country_modifier = yankee_prime_minister_050
+		remove_country_modifier = yankee_prime_minister_051
+		remove_country_modifier = yankee_prime_minister_052
+		remove_country_modifier = yankee_prime_minister_053
+		remove_country_modifier = yankee_prime_minister_054
+		remove_country_modifier = yankee_prime_minister_055
+		remove_country_modifier = yankee_prime_minister_056
+		remove_country_modifier = yankee_prime_minister_057
+		remove_country_modifier = yankee_prime_minister_058
+		remove_country_modifier = yankee_prime_minister_059
+		remove_country_modifier = yankee_prime_minister_060
+		remove_country_modifier = yankee_prime_minister_061
+		remove_country_modifier = yankee_prime_minister_062
+		remove_country_modifier = yankee_prime_minister_063
+		remove_country_modifier = yankee_prime_minister_064
+		remove_country_modifier = yankee_prime_minister_065
+		remove_country_modifier = yankee_prime_minister_066
+		remove_country_modifier = yankee_prime_minister_067
+		remove_country_modifier = yankee_prime_minister_068
+		remove_country_modifier = yankee_prime_minister_069
+		remove_country_modifier = yankee_prime_minister_070
+		remove_country_modifier = yankee_prime_minister_071
+		remove_country_modifier = yankee_prime_minister_072
+		remove_country_modifier = yankee_prime_minister_073
+		remove_country_modifier = yankee_prime_minister_074
+		remove_country_modifier = yankee_prime_minister_075
+		remove_country_modifier = yankee_prime_minister_076
+		remove_country_modifier = yankee_prime_minister_077
+		remove_country_modifier = yankee_prime_minister_078
+		remove_country_modifier = yankee_prime_minister_079
+		remove_country_modifier = yankee_prime_minister_080
+		remove_country_modifier = yankee_prime_minister_081
+		remove_country_modifier = yankee_prime_minister_082
+		remove_country_modifier = yankee_prime_minister_083
+		remove_country_modifier = yankee_prime_minister_084
+		remove_country_modifier = yankee_prime_minister_085
+		remove_country_modifier = yankee_prime_minister_086
+		remove_country_modifier = yankee_prime_minister_087
+		remove_country_modifier = yankee_prime_minister_088
+		remove_country_modifier = yankee_prime_minister_089
+		remove_country_modifier = yankee_prime_minister_090
+		remove_country_modifier = yankee_prime_minister_091
+		remove_country_modifier = yankee_prime_minister_092
+		remove_country_modifier = yankee_prime_minister_093
+		remove_country_modifier = yankee_prime_minister_094
+		remove_country_modifier = yankee_prime_minister_095
+		remove_country_modifier = yankee_prime_minister_096
+		remove_country_modifier = yankee_prime_minister_097
+		remove_country_modifier = yankee_prime_minister_098
+		remove_country_modifier = yankee_prime_minister_099
+		remove_country_modifier = yankee_prime_minister_100
+		remove_country_modifier = yankee_prime_minister_101
+		remove_country_modifier = yankee_prime_minister_102
+		remove_country_modifier = yankee_prime_minister_103
+		remove_country_modifier = yankee_prime_minister_104
+		remove_country_modifier = yankee_prime_minister_105
+		remove_country_modifier = yankee_prime_minister_106
+		remove_country_modifier = yankee_prime_minister_107
+		remove_country_modifier = yankee_prime_minister_108
+		remove_country_modifier = yankee_prime_minister_109
+		remove_country_modifier = yankee_prime_minister_110
+		remove_country_modifier = yankee_prime_minister_111
+		remove_country_modifier = yankee_prime_minister_112
+		remove_country_modifier = yankee_prime_minister_113
+		remove_country_modifier = yankee_prime_minister_114
+		remove_country_modifier = yankee_prime_minister_115
+		remove_country_modifier = yankee_prime_minister_116
+		remove_country_modifier = yankee_prime_minister_117
+		remove_country_modifier = yankee_prime_minister_118
+		remove_country_modifier = yankee_prime_minister_119
+		remove_country_modifier = yankee_prime_minister_120
+		remove_country_modifier = yankee_prime_minister_121
+		remove_country_modifier = yankee_prime_minister_122
+		
+		remove_country_modifier = yankee_president_000
+		remove_country_modifier = yankee_president_001
+		remove_country_modifier = yankee_president_002
+		remove_country_modifier = yankee_president_003
+		remove_country_modifier = yankee_president_004
+		remove_country_modifier = yankee_president_005
+		remove_country_modifier = yankee_president_006
+		remove_country_modifier = yankee_president_007
+		remove_country_modifier = yankee_president_008
+		remove_country_modifier = yankee_president_009
+		remove_country_modifier = yankee_president_010
+		remove_country_modifier = yankee_president_011
+		remove_country_modifier = yankee_president_012
+		remove_country_modifier = yankee_president_013
+		remove_country_modifier = yankee_president_014
+		remove_country_modifier = yankee_president_015
+		remove_country_modifier = yankee_president_016
+		remove_country_modifier = yankee_president_017
+		remove_country_modifier = yankee_president_018
+		remove_country_modifier = yankee_president_019
+		remove_country_modifier = yankee_president_020
+		remove_country_modifier = yankee_president_021
+		remove_country_modifier = yankee_president_022
+		remove_country_modifier = yankee_president_023
+		remove_country_modifier = yankee_president_024
+		remove_country_modifier = yankee_president_025
+		remove_country_modifier = yankee_president_026
+		remove_country_modifier = yankee_president_027
+		remove_country_modifier = yankee_president_028
+		remove_country_modifier = yankee_president_029
+		remove_country_modifier = yankee_president_030
+		remove_country_modifier = yankee_president_031
+		remove_country_modifier = yankee_president_032
+		remove_country_modifier = yankee_president_033
+		remove_country_modifier = yankee_president_034
+		remove_country_modifier = yankee_president_035
+		remove_country_modifier = yankee_president_036
+		remove_country_modifier = yankee_president_037
+		remove_country_modifier = yankee_president_038
+		remove_country_modifier = yankee_president_039
+		remove_country_modifier = yankee_president_040
+		remove_country_modifier = yankee_president_041
+		remove_country_modifier = yankee_president_042
+		remove_country_modifier = yankee_president_043
+		remove_country_modifier = yankee_president_044
+		remove_country_modifier = yankee_president_045
+		remove_country_modifier = yankee_president_046
+		remove_country_modifier = yankee_president_047
+		remove_country_modifier = yankee_president_048
+		remove_country_modifier = yankee_president_049
+		remove_country_modifier = yankee_president_050
+		remove_country_modifier = yankee_president_051
+		remove_country_modifier = yankee_president_052
+		remove_country_modifier = yankee_president_053
+		remove_country_modifier = yankee_president_054
+		remove_country_modifier = yankee_president_055
+		remove_country_modifier = yankee_president_056
+		remove_country_modifier = yankee_president_057
+		remove_country_modifier = yankee_president_058
+		remove_country_modifier = yankee_president_059
+		remove_country_modifier = yankee_president_060
+		remove_country_modifier = yankee_president_061
+		remove_country_modifier = yankee_president_062
+		remove_country_modifier = yankee_president_063
+		remove_country_modifier = yankee_president_064
+		remove_country_modifier = yankee_president_065
+		remove_country_modifier = yankee_president_066
+		remove_country_modifier = yankee_president_067
+		remove_country_modifier = yankee_president_068
+		remove_country_modifier = yankee_president_069
+		remove_country_modifier = yankee_president_070
+		remove_country_modifier = yankee_president_071
+		remove_country_modifier = yankee_president_072
+		remove_country_modifier = yankee_president_073
+		remove_country_modifier = yankee_president_074
+		remove_country_modifier = yankee_president_075
+		remove_country_modifier = yankee_president_076
+		remove_country_modifier = yankee_president_077
+		remove_country_modifier = yankee_president_078
+		remove_country_modifier = yankee_president_079
+		remove_country_modifier = yankee_president_080
+		remove_country_modifier = yankee_president_081
+		remove_country_modifier = yankee_president_082
+		remove_country_modifier = yankee_president_083
+		remove_country_modifier = yankee_president_084
+		remove_country_modifier = yankee_president_085
+		remove_country_modifier = yankee_president_086
+		remove_country_modifier = yankee_president_087
+		remove_country_modifier = yankee_president_088
+		remove_country_modifier = yankee_president_089
+		remove_country_modifier = yankee_president_090
+		remove_country_modifier = yankee_president_091
+		remove_country_modifier = yankee_president_092
+		remove_country_modifier = yankee_president_093
+		remove_country_modifier = yankee_president_094
+		remove_country_modifier = yankee_president_095
+		remove_country_modifier = yankee_president_096
+		remove_country_modifier = yankee_president_097
+		remove_country_modifier = yankee_president_098
+		remove_country_modifier = yankee_president_099
+		remove_country_modifier = yankee_president_100
+		remove_country_modifier = yankee_president_101
+		remove_country_modifier = yankee_president_102
+		remove_country_modifier = yankee_president_103
+		remove_country_modifier = yankee_president_104
+		remove_country_modifier = yankee_president_105
+		remove_country_modifier = yankee_president_106
+		remove_country_modifier = yankee_president_107
+		remove_country_modifier = yankee_president_108
+		remove_country_modifier = yankee_president_109
+		remove_country_modifier = yankee_president_110
+		remove_country_modifier = yankee_president_111
+		remove_country_modifier = yankee_president_112
+		remove_country_modifier = yankee_president_113
+		remove_country_modifier = yankee_president_114
+		remove_country_modifier = yankee_president_115
+		remove_country_modifier = yankee_president_116
+		remove_country_modifier = yankee_president_117
+		remove_country_modifier = yankee_president_118
+		remove_country_modifier = yankee_president_119
+		remove_country_modifier = yankee_president_120
+		remove_country_modifier = yankee_president_121
+		remove_country_modifier = yankee_president_122
+		
+		random_list = {
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_00
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_01
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_02
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_03
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_04
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_05
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_06
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_07
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_08
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_09
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_10
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_11
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_12
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_13
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_14
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_15
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_16
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_17
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_18
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_19
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_20
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_21
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_22
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_23
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_24
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_25
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_26
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_27
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_28
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_29
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_30
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_31
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_32
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_33
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_34
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_35
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_36
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_37
+					duration = -1
+				}
+			}
+			2.56 = {
+				add_country_modifier = {
+					name = yankee_king_38
+					duration = -1
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+    id = 100040120
+    title = "King Assassinated"
+    desc = "Our Majesty has been murdered."
+    picture = "Assassination"
+    trigger = {
+		ai = no
+        primary_culture = yankee
+		OR = {
+			has_country_modifier = yankee_king_00
+			has_country_modifier = yankee_king_01
+			has_country_modifier = yankee_king_02
+			has_country_modifier = yankee_king_03
+			has_country_modifier = yankee_king_04
+			has_country_modifier = yankee_king_05
+			has_country_modifier = yankee_king_06
+			has_country_modifier = yankee_king_07
+			has_country_modifier = yankee_king_08
+			has_country_modifier = yankee_king_09
+			has_country_modifier = yankee_king_10
+			has_country_modifier = yankee_king_11
+			has_country_modifier = yankee_king_12
+			has_country_modifier = yankee_king_13
+			has_country_modifier = yankee_king_14
+			has_country_modifier = yankee_king_15
+			has_country_modifier = yankee_king_16
+			has_country_modifier = yankee_king_17
+			has_country_modifier = yankee_king_18
+			has_country_modifier = yankee_king_19
+			has_country_modifier = yankee_king_20
+			has_country_modifier = yankee_king_21
+			has_country_modifier = yankee_king_22
+			has_country_modifier = yankee_king_23
+			has_country_modifier = yankee_king_24
+			has_country_modifier = yankee_king_25
+			has_country_modifier = yankee_king_26
+			has_country_modifier = yankee_king_27
+			has_country_modifier = yankee_king_28
+			has_country_modifier = yankee_king_29
+			has_country_modifier = yankee_king_30
+			has_country_modifier = yankee_king_31
+			has_country_modifier = yankee_king_32
+			has_country_modifier = yankee_king_33
+			has_country_modifier = yankee_king_34
+			has_country_modifier = yankee_king_35
+			has_country_modifier = yankee_king_36
+			has_country_modifier = yankee_king_37
+			has_country_modifier = yankee_king_38
+		}
+		average_militancy = 5
+		OR = {
+            government = absolute_monarchy
+            government = prussian_constitutionalism
+        }
+	}
+	
+	mean_time_to_happen = {
+        months = 48
+    }
+	
+	 option = {
+        name = "A tragedy!"
+		remove_country_modifier = yankee_king_00
+		remove_country_modifier = yankee_king_01
+		remove_country_modifier = yankee_king_02
+		remove_country_modifier = yankee_king_03
+		remove_country_modifier = yankee_king_04
+		remove_country_modifier = yankee_king_05
+		remove_country_modifier = yankee_king_06
+		remove_country_modifier = yankee_king_07
+		remove_country_modifier = yankee_king_08
+		remove_country_modifier = yankee_king_09
+		remove_country_modifier = yankee_king_10
+		remove_country_modifier = yankee_king_11
+		remove_country_modifier = yankee_king_12
+		remove_country_modifier = yankee_king_13
+		remove_country_modifier = yankee_king_14
+		remove_country_modifier = yankee_king_15
+		remove_country_modifier = yankee_king_16
+		remove_country_modifier = yankee_king_17
+		remove_country_modifier = yankee_king_18
+		remove_country_modifier = yankee_king_19
+		remove_country_modifier = yankee_king_20
+		remove_country_modifier = yankee_king_21
+		remove_country_modifier = yankee_king_22
+		remove_country_modifier = yankee_king_23
+		remove_country_modifier = yankee_king_24
+		remove_country_modifier = yankee_king_25
+		remove_country_modifier = yankee_king_26
+		remove_country_modifier = yankee_king_27
+		remove_country_modifier = yankee_king_28
+		remove_country_modifier = yankee_king_29
+		remove_country_modifier = yankee_king_30
+		remove_country_modifier = yankee_king_31
+		remove_country_modifier = yankee_king_32
+		remove_country_modifier = yankee_king_33
+		remove_country_modifier = yankee_king_34
+		remove_country_modifier = yankee_king_35
+		remove_country_modifier = yankee_king_36
+		remove_country_modifier = yankee_king_37
+		remove_country_modifier = yankee_king_38
+		add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+		
+	}
+}
+
+country_event = {
+    id = 100060001
+    title = "President Elected"
+    desc = "A new president has been elected."
+    picture = "danishgovernment"
+    trigger = {
+		ai = no
+		primary_culture = yankee
+        NOT = {
+			has_country_modifier = term_of_office
+			has_country_modifier = power_vacuum
+			election = yes
+		}
+		OR = {
+			OR = {
+				has_country_flag = reactionary_election_win
+				has_country_flag = liberal_election_win
+				has_country_flag = fascist_election_win
+				has_country_flag = socialist_election_win
+				has_country_flag = communist_election_win
+				has_country_flag = anarcho_liberal_win
+				has_country_flag = social_liberal_election_win
+				has_country_flag = tory_election_win
+			}
+			OR = {
+				government = democracy
+				has_country_flag = democracy_gov
+			}
+		}
+		
+		mean_time_to_happen = {
+			days = 14
+		}
+		
+		option = {
+			name = "I hope he's good..."
+
+			remove_country_modifier = yankee_king_00
+			remove_country_modifier = yankee_king_01
+			remove_country_modifier = yankee_king_02
+			remove_country_modifier = yankee_king_03
+			remove_country_modifier = yankee_king_04
+			remove_country_modifier = yankee_king_05
+			remove_country_modifier = yankee_king_06
+			remove_country_modifier = yankee_king_07
+			remove_country_modifier = yankee_king_08
+			remove_country_modifier = yankee_king_09
+			remove_country_modifier = yankee_king_10
+			remove_country_modifier = yankee_king_11
+			remove_country_modifier = yankee_king_12
+			remove_country_modifier = yankee_king_13
+			remove_country_modifier = yankee_king_14
+			remove_country_modifier = yankee_king_15
+			remove_country_modifier = yankee_king_16
+			remove_country_modifier = yankee_king_17
+			remove_country_modifier = yankee_king_18
+			remove_country_modifier = yankee_king_19
+			remove_country_modifier = yankee_king_20
+			remove_country_modifier = yankee_king_21
+			remove_country_modifier = yankee_king_22
+			remove_country_modifier = yankee_king_23
+			remove_country_modifier = yankee_king_24
+			remove_country_modifier = yankee_king_25
+			remove_country_modifier = yankee_king_26
+			remove_country_modifier = yankee_king_27
+			remove_country_modifier = yankee_king_28
+			remove_country_modifier = yankee_king_29
+			remove_country_modifier = yankee_king_30
+			remove_country_modifier = yankee_king_31
+			remove_country_modifier = yankee_king_32
+			remove_country_modifier = yankee_king_33
+			remove_country_modifier = yankee_king_34
+			remove_country_modifier = yankee_king_35
+			remove_country_modifier = yankee_king_36
+			remove_country_modifier = yankee_king_37
+			remove_country_modifier = yankee_king_38
+			
+			remove_country_modifier = yankee_prime_minister_000
+			remove_country_modifier = yankee_prime_minister_001
+			remove_country_modifier = yankee_prime_minister_002
+			remove_country_modifier = yankee_prime_minister_003
+			remove_country_modifier = yankee_prime_minister_004
+			remove_country_modifier = yankee_prime_minister_005
+			remove_country_modifier = yankee_prime_minister_006
+			remove_country_modifier = yankee_prime_minister_007
+			remove_country_modifier = yankee_prime_minister_008
+			remove_country_modifier = yankee_prime_minister_009
+			remove_country_modifier = yankee_prime_minister_010
+			remove_country_modifier = yankee_prime_minister_011
+			remove_country_modifier = yankee_prime_minister_012
+			remove_country_modifier = yankee_prime_minister_013
+			remove_country_modifier = yankee_prime_minister_014
+			remove_country_modifier = yankee_prime_minister_015
+			remove_country_modifier = yankee_prime_minister_016
+			remove_country_modifier = yankee_prime_minister_017
+			remove_country_modifier = yankee_prime_minister_018
+			remove_country_modifier = yankee_prime_minister_019
+			remove_country_modifier = yankee_prime_minister_020
+			remove_country_modifier = yankee_prime_minister_021
+			remove_country_modifier = yankee_prime_minister_022
+			remove_country_modifier = yankee_prime_minister_023
+			remove_country_modifier = yankee_prime_minister_024
+			remove_country_modifier = yankee_prime_minister_025
+			remove_country_modifier = yankee_prime_minister_026
+			remove_country_modifier = yankee_prime_minister_027
+			remove_country_modifier = yankee_prime_minister_028
+			remove_country_modifier = yankee_prime_minister_029
+			remove_country_modifier = yankee_prime_minister_030
+			remove_country_modifier = yankee_prime_minister_031
+			remove_country_modifier = yankee_prime_minister_032
+			remove_country_modifier = yankee_prime_minister_033
+			remove_country_modifier = yankee_prime_minister_034
+			remove_country_modifier = yankee_prime_minister_035
+			remove_country_modifier = yankee_prime_minister_036
+			remove_country_modifier = yankee_prime_minister_037
+			remove_country_modifier = yankee_prime_minister_038
+			remove_country_modifier = yankee_prime_minister_039
+			remove_country_modifier = yankee_prime_minister_040
+			remove_country_modifier = yankee_prime_minister_041
+			remove_country_modifier = yankee_prime_minister_042
+			remove_country_modifier = yankee_prime_minister_043
+			remove_country_modifier = yankee_prime_minister_044
+			remove_country_modifier = yankee_prime_minister_045
+			remove_country_modifier = yankee_prime_minister_046
+			remove_country_modifier = yankee_prime_minister_047
+			remove_country_modifier = yankee_prime_minister_048
+			remove_country_modifier = yankee_prime_minister_049
+			remove_country_modifier = yankee_prime_minister_050
+			remove_country_modifier = yankee_prime_minister_051
+			remove_country_modifier = yankee_prime_minister_052
+			remove_country_modifier = yankee_prime_minister_053
+			remove_country_modifier = yankee_prime_minister_054
+			remove_country_modifier = yankee_prime_minister_055
+			remove_country_modifier = yankee_prime_minister_056
+			remove_country_modifier = yankee_prime_minister_057
+			remove_country_modifier = yankee_prime_minister_058
+			remove_country_modifier = yankee_prime_minister_059
+			remove_country_modifier = yankee_prime_minister_060
+			remove_country_modifier = yankee_prime_minister_061
+			remove_country_modifier = yankee_prime_minister_062
+			remove_country_modifier = yankee_prime_minister_063
+			remove_country_modifier = yankee_prime_minister_064
+			remove_country_modifier = yankee_prime_minister_065
+			remove_country_modifier = yankee_prime_minister_066
+			remove_country_modifier = yankee_prime_minister_067
+			remove_country_modifier = yankee_prime_minister_068
+			remove_country_modifier = yankee_prime_minister_069
+			remove_country_modifier = yankee_prime_minister_070
+			remove_country_modifier = yankee_prime_minister_071
+			remove_country_modifier = yankee_prime_minister_072
+			remove_country_modifier = yankee_prime_minister_073
+			remove_country_modifier = yankee_prime_minister_074
+			remove_country_modifier = yankee_prime_minister_075
+			remove_country_modifier = yankee_prime_minister_076
+			remove_country_modifier = yankee_prime_minister_077
+			remove_country_modifier = yankee_prime_minister_078
+			remove_country_modifier = yankee_prime_minister_079
+			remove_country_modifier = yankee_prime_minister_080
+			remove_country_modifier = yankee_prime_minister_081
+			remove_country_modifier = yankee_prime_minister_082
+			remove_country_modifier = yankee_prime_minister_083
+			remove_country_modifier = yankee_prime_minister_084
+			remove_country_modifier = yankee_prime_minister_085
+			remove_country_modifier = yankee_prime_minister_086
+			remove_country_modifier = yankee_prime_minister_087
+			remove_country_modifier = yankee_prime_minister_088
+			remove_country_modifier = yankee_prime_minister_089
+			remove_country_modifier = yankee_prime_minister_090
+			remove_country_modifier = yankee_prime_minister_091
+			remove_country_modifier = yankee_prime_minister_092
+			remove_country_modifier = yankee_prime_minister_093
+			remove_country_modifier = yankee_prime_minister_094
+			remove_country_modifier = yankee_prime_minister_095
+			remove_country_modifier = yankee_prime_minister_096
+			remove_country_modifier = yankee_prime_minister_097
+			remove_country_modifier = yankee_prime_minister_098
+			remove_country_modifier = yankee_prime_minister_099
+			remove_country_modifier = yankee_prime_minister_100
+			remove_country_modifier = yankee_prime_minister_101
+			remove_country_modifier = yankee_prime_minister_102
+			remove_country_modifier = yankee_prime_minister_103
+			remove_country_modifier = yankee_prime_minister_104
+			remove_country_modifier = yankee_prime_minister_105
+			remove_country_modifier = yankee_prime_minister_106
+			remove_country_modifier = yankee_prime_minister_107
+			remove_country_modifier = yankee_prime_minister_108
+			remove_country_modifier = yankee_prime_minister_109
+			remove_country_modifier = yankee_prime_minister_110
+			remove_country_modifier = yankee_prime_minister_111
+			remove_country_modifier = yankee_prime_minister_112
+			remove_country_modifier = yankee_prime_minister_113
+			remove_country_modifier = yankee_prime_minister_114
+			remove_country_modifier = yankee_prime_minister_115
+			remove_country_modifier = yankee_prime_minister_116
+			remove_country_modifier = yankee_prime_minister_117
+			remove_country_modifier = yankee_prime_minister_118
+			remove_country_modifier = yankee_prime_minister_119
+			remove_country_modifier = yankee_prime_minister_120
+			remove_country_modifier = yankee_prime_minister_121
+			remove_country_modifier = yankee_prime_minister_122
+			
+			remove_country_modifier = yankee_president_000
+			remove_country_modifier = yankee_president_001
+			remove_country_modifier = yankee_president_002
+			remove_country_modifier = yankee_president_003
+			remove_country_modifier = yankee_president_004
+			remove_country_modifier = yankee_president_005
+			remove_country_modifier = yankee_president_006
+			remove_country_modifier = yankee_president_007
+			remove_country_modifier = yankee_president_008
+			remove_country_modifier = yankee_president_009
+			remove_country_modifier = yankee_president_010
+			remove_country_modifier = yankee_president_011
+			remove_country_modifier = yankee_president_012
+			remove_country_modifier = yankee_president_013
+			remove_country_modifier = yankee_president_014
+			remove_country_modifier = yankee_president_015
+			remove_country_modifier = yankee_president_016
+			remove_country_modifier = yankee_president_017
+			remove_country_modifier = yankee_president_018
+			remove_country_modifier = yankee_president_019
+			remove_country_modifier = yankee_president_020
+			remove_country_modifier = yankee_president_021
+			remove_country_modifier = yankee_president_022
+			remove_country_modifier = yankee_president_023
+			remove_country_modifier = yankee_president_024
+			remove_country_modifier = yankee_president_025
+			remove_country_modifier = yankee_president_026
+			remove_country_modifier = yankee_president_027
+			remove_country_modifier = yankee_president_028
+			remove_country_modifier = yankee_president_029
+			remove_country_modifier = yankee_president_030
+			remove_country_modifier = yankee_president_031
+			remove_country_modifier = yankee_president_032
+			remove_country_modifier = yankee_president_033
+			remove_country_modifier = yankee_president_034
+			remove_country_modifier = yankee_president_035
+			remove_country_modifier = yankee_president_036
+			remove_country_modifier = yankee_president_037
+			remove_country_modifier = yankee_president_038
+			remove_country_modifier = yankee_president_039
+			remove_country_modifier = yankee_president_040
+			remove_country_modifier = yankee_president_041
+			remove_country_modifier = yankee_president_042
+			remove_country_modifier = yankee_president_043
+			remove_country_modifier = yankee_president_044
+			remove_country_modifier = yankee_president_045
+			remove_country_modifier = yankee_president_046
+			remove_country_modifier = yankee_president_047
+			remove_country_modifier = yankee_president_048
+			remove_country_modifier = yankee_president_049
+			remove_country_modifier = yankee_president_050
+			remove_country_modifier = yankee_president_051
+			remove_country_modifier = yankee_president_052
+			remove_country_modifier = yankee_president_053
+			remove_country_modifier = yankee_president_054
+			remove_country_modifier = yankee_president_055
+			remove_country_modifier = yankee_president_056
+			remove_country_modifier = yankee_president_057
+			remove_country_modifier = yankee_president_058
+			remove_country_modifier = yankee_president_059
+			remove_country_modifier = yankee_president_060
+			remove_country_modifier = yankee_president_061
+			remove_country_modifier = yankee_president_062
+			remove_country_modifier = yankee_president_063
+			remove_country_modifier = yankee_president_064
+			remove_country_modifier = yankee_president_065
+			remove_country_modifier = yankee_president_066
+			remove_country_modifier = yankee_president_067
+			remove_country_modifier = yankee_president_068
+			remove_country_modifier = yankee_president_069
+			remove_country_modifier = yankee_president_070
+			remove_country_modifier = yankee_president_071
+			remove_country_modifier = yankee_president_072
+			remove_country_modifier = yankee_president_073
+			remove_country_modifier = yankee_president_074
+			remove_country_modifier = yankee_president_075
+			remove_country_modifier = yankee_president_076
+			remove_country_modifier = yankee_president_077
+			remove_country_modifier = yankee_president_078
+			remove_country_modifier = yankee_president_079
+			remove_country_modifier = yankee_president_080
+			remove_country_modifier = yankee_president_081
+			remove_country_modifier = yankee_president_082
+			remove_country_modifier = yankee_president_083
+			remove_country_modifier = yankee_president_084
+			remove_country_modifier = yankee_president_085
+			remove_country_modifier = yankee_president_086
+			remove_country_modifier = yankee_president_087
+			remove_country_modifier = yankee_president_088
+			remove_country_modifier = yankee_president_089
+			remove_country_modifier = yankee_president_090
+			remove_country_modifier = yankee_president_091
+			remove_country_modifier = yankee_president_092
+			remove_country_modifier = yankee_president_093
+			remove_country_modifier = yankee_president_094
+			remove_country_modifier = yankee_president_095
+			remove_country_modifier = yankee_president_096
+			remove_country_modifier = yankee_president_097
+			remove_country_modifier = yankee_president_098
+			remove_country_modifier = yankee_president_099
+			remove_country_modifier = yankee_president_100
+			remove_country_modifier = yankee_president_101
+			remove_country_modifier = yankee_president_102
+			remove_country_modifier = yankee_president_103
+			remove_country_modifier = yankee_president_104
+			remove_country_modifier = yankee_president_105
+			remove_country_modifier = yankee_president_106
+			remove_country_modifier = yankee_president_107
+			remove_country_modifier = yankee_president_108
+			remove_country_modifier = yankee_president_109
+			remove_country_modifier = yankee_president_110
+			remove_country_modifier = yankee_president_111
+			remove_country_modifier = yankee_president_112
+			remove_country_modifier = yankee_president_113
+			remove_country_modifier = yankee_president_114
+			remove_country_modifier = yankee_president_115
+			remove_country_modifier = yankee_president_116
+			remove_country_modifier = yankee_president_117
+			remove_country_modifier = yankee_president_118
+			remove_country_modifier = yankee_president_119
+			remove_country_modifier = yankee_president_120
+			remove_country_modifier = yankee_president_121
+			remove_country_modifier = yankee_president_122
+			
+			random_list = {
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_000
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_001
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_002
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_003
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_004
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_005
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_006
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_007
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_008
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_009
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_010
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_011
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_012
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_013
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_014
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_015
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_016
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_017
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_018
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_019
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_020
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_021
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_022
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_023
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_024
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_025
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_026
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_027
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_028
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_029
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_030
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_031
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_032
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_033
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_034
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_035
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_036
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_037
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_038
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_039
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_040
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_041
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_042
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_043
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_044
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_045
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_046
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_047
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_048
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_049
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_050
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_051
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_052
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_053
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_054
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_055
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_056
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_057
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_058
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_059
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_060
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_061
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_062
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_063
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_064
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_065
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_066
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_067
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_068
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_069
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_070
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_071
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_072
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_073
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_074
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_075
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_076
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_077
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_078
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_079
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_080
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_081
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_082
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_083
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_084
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_085
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_086
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_087
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_088
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_089
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_090
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_091
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_092
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_093
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_094
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_095
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_096
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_097
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_098
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_099
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_100
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_101
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_102
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_103
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_104
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_105
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_106
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_107
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_108
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_109
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_110
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_111
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_112
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_113
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_114
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_115
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_116
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_117
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_118
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_119
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_120
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_121
+						duration = -1
+					}
+				}
+				1.23 = {
+					add_country_modifier = {
+						name = yankee_president_122
+						duration = -1
+					}
+				}
+			}
+			add_country_modifier = { name = term_of_office duration = 1461 }
+		}
+	}
+}
